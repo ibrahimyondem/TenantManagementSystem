@@ -3,7 +3,7 @@ public class TenantManager {
     private final int maxTenants;
     private int numTenants = 0;
     private UnitManager unitManager;
-    //Constructor for the TenantManager
+    //Constructor
     public TenantManager(int maxTenants) {
         this.maxTenants = maxTenants;
         this.tenants = new Tenant[maxTenants];
