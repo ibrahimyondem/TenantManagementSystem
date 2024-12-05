@@ -7,7 +7,6 @@ public class App extends Application {
         LoginController loginController = new LoginController(primaryStage);
         loginController.showLoginScreen();
     }
-
     public static void main(String[] args) {
         launch(args);
     }

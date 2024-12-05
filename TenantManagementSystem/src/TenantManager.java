@@ -3,7 +3,7 @@ public class TenantManager {
     private final int maxTenants;
     private int numTenants = 0;
     private UnitManager unitManager;
-
+    //Constructor
     public TenantManager(int maxTenants) {
         this.maxTenants = maxTenants;
         this.tenants = new Tenant[maxTenants];
@@ -113,7 +113,6 @@ public class TenantManager {
             System.out.println("\nThere aren't any tenants to search!");
             return false;
         }
-
         String lowerTypeName = tenantName.toLowerCase();
         boolean foundName = false;
 
